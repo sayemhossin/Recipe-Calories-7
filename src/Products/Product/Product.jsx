@@ -1,7 +1,7 @@
 import { CiClock2 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
 
-const Product = ({product}) => {
+const Product = ({product,handleClick}) => {
     const {recipe_name,short_description,ingredients,preparing_time,calories,recipe_image} = product
     return (
         <div>
@@ -31,7 +31,7 @@ const Product = ({product}) => {
         </div>
     </div>
     <div className="card-actions mt-6">
-      <button className="btn btn-primary rounded-full bg-[#0BE58A] hover:bg-[#32bb82] border-0 text-black">Want To Cook</button>
+      <button onClick={()=>handleClick(product)} className="btn btn-primary rounded-lg bg-[#0BE58A] hover:bg-[#32bb82] border-0 text-black">Want To Cook</button>
     </div>
   </div>
 </div>
