@@ -1,0 +1,57 @@
+[
+    {
+      "recipe_id": 1,
+      "recipe_name": "Teriyaki Chicken Stir-Fry",
+      "short_description": "A delicious stir-fry with tender chicken and vegetables in a sweet and savory teriyaki sauce.",
+      "ingredients": ["550 g chicken breast", "120 ml soy sauce", "200 g basil leaves", "400 g mushrooms", "1 onion", "2 bell peppers"],
+      "preparing_time": "30 min",
+      "calories": "320 calories",
+      "recipe_image": "https://i.ibb.co/5Bx1p6D/Teriyaki-Chicken-Vegetable-Stir-Fry.jpg"
+    },
+    {
+      "recipe_id": 2,
+      "recipe_name": "Caprese Salad",
+      "short_description": "A refreshing salad with ripe tomatoes, fresh mozzarella, basil, and balsamic glaze.",
+      "ingredients": ["3 large tomatoes", "250 g fresh mozzarella", "1 cup fresh basil leaves", "2 tbsp balsamic glaze", "2 tbsp extra virgin olive oil", "Salt and pepper"],
+      "preparing_time": "15 min",
+      "calories": "180 calories",
+      "recipe_image": "https://i.ibb.co/XCKB5MF/tm1a35-caprese-salad.jpg"
+    },
+    {
+      "recipe_id": 3,
+      "recipe_name": "Spaghetti Carbonara",
+      "short_description": "A classic Italian pasta dish with spaghetti, crispy bacon, creamy sauce, and Parmesan cheese.",
+      "ingredients": ["400 g spaghetti", "200 g pancetta or bacon", "4 large eggs", "1 cup grated Parmesan cheese", "3 cloves garlic", "Salt and pepper"],
+      "preparing_time": "25 min",
+      "calories": "450 calories",
+      "recipe_image": "https://i.ibb.co/V91gsxy/recipe-image-legacy-id-1001491-11-2e0fa5c.jpg"
+    },
+    {
+      "recipe_id": 4,
+      "recipe_name": "Vegetable Curry",
+      "short_description": "A flavorful curry made with a variety of vegetables and aromatic spices.",
+      "ingredients": ["2 potatoes", "2 carrots", "1 cup cauliflower florets", "1 cup green peas", "1 onion", "2 tomatoes"],
+      "preparing_time": "40 min",
+      "calories": "280 calories",
+      "recipe_image": "https://i.ibb.co/DbTMBsZ/download.jpg"
+    },
+    {
+      "recipe_id": 5,
+      "recipe_name": "Grilled Salmon with Lemon Dill Sauce",
+      "short_description": "Juicy grilled salmon fillets served with a tangy lemon dill sauce.",
+      "ingredients": ["4 salmon fillets", "2 lemons", "2 tbsp fresh dill", "2 cloves garlic", "1/4 cup olive oil", "Salt and pepper"],
+      "preparing_time": "20 min",
+      "calories": "280 calories",
+      "recipe_image": "https://i.ibb.co/yYgD1JY/opt-aboutcom-coeus-resources-content-migration-simply-recipes-uploads-2013-06-grilled-salmon-dill-bu.jpg"
+    },
+    {
+      "recipe_id": 6,
+      "recipe_name": "Mango Avocado Salsa",
+      "short_description": "A vibrant salsa made with ripe mangoes, creamy avocado, red onion, cilantro, and lime juice.",
+      "ingredients": ["2 ripe mangoes", "2 ripe avocados", "1/2 red onion", "1/4 cup fresh cilantro", "1 jalapeno pepper", "2 limes"],
+      "preparing_time": "10 min",
+      "calories": "120 calories",
+      "recipe_image": "https://i.ibb.co/fY53tdD/Mango-Avocado-Salsa.jpg"
+    }
+  ]
+  
