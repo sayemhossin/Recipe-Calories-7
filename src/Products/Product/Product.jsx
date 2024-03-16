@@ -11,8 +11,8 @@ const Product = ({product,handleClick}) => {
     <h2 className="card-title">{recipe_name}</h2>
     <p>{short_description}</p>
     <div className="border"></div>
-    <div>
-       <h1>InteGrants: {ingredients.length}</h1>
+    <div className="ml-4">
+       <h1 className="text-xl font-semibold">InteGrants: {ingredients.length}</h1>
        {
         ingredients.map((i)=>(
             <p><li>{i}</li></p>
@@ -23,11 +23,11 @@ const Product = ({product,handleClick}) => {
     <div className="flex justify-around">
         <div className="flex items-center gap-2">
         <CiClock2 />
-          <p>{preparing_time}</p>
+          <p>{preparing_time} min</p>
         </div>
         <div className="flex items-center gap-2">
         <GoFlame />
-           <p>{calories}</p>
+           <p>{calories} calories</p>
         </div>
     </div>
     <div className="card-actions mt-6">

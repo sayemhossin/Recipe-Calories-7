@@ -8,10 +8,10 @@ const Banner = () => {
   <div className="hero-content text-center text-neutral-content">
     <div className=" space-y-9">
       <h1 className="mb-5 text-white text-2xl md:text-5xl font-bold">Discover an exceptional cooking <br className="hidden md:inline" /> class tailored for you!</h1>
-      <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+      <p className="mb-5 md:text-xl ">Following the instructions and techniques presented in cooking videos requires cognitive engagement. This mental activity stimulates your brain and can help improve focus, concentration, and cognitive function.</p>
      <div className="space-x-6 ">
-     <button className="btn rounded-full bg-[#0BE58A] hover:bg-[#32bb82] border-0 btn-primary text-black">Explore Now</button>
-      <button className="btn rounded-full hover:bg-[#32bb82] text-white btn-outline">Our Feedback</button>
+     <button className="btn rounded-full md:text-xl bg-[#0BE58A] hover:bg-[#32bb82] border-0 btn-primary text-black">Explore Now</button>
+      <button className="btn rounded-full md:text-xl hover:bg-[#32bb82] text-white btn-outline">Our Feedback</button>
      </div>
     </div>
   </div>
