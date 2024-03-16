@@ -1,4 +1,5 @@
 import { AiOutlineUserAdd } from "react-icons/ai";
+import { CiSearch } from "react-icons/ci";
 
 const Navbar = () => {
     return (
@@ -16,7 +17,7 @@ const Navbar = () => {
       <li><a>Search</a></li>
       </ul>
     </div>
-    <a className="btn text-xl btn-ghost font-extrabold md:text-4xl">Recipe Calories</a>
+    <a className="btn text-xl btn-ghost font-extrabold hover:bg-white md:text-4xl">Recipe Calories</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal font-bold px-1">
@@ -28,8 +29,12 @@ const Navbar = () => {
   </div>
   <div className="navbar-end ">
  
-    <input className="bg-[#dcdbdf]  h-12 rounded-full hidden lg:block p-6 w-60 mr-16
-    " type="text" placeholder="Search"/>
+     <input className="bg-[#dcdbdf]  h-12 rounded-full hidden lg:block p-6 w-60 mr-16
+    " type="text" placeholder="Search"/> 
+   
+    
+
+
     <a className="btn rounded-full text-xl bg-[#0BE58A] hover:bg-[#32bb82]"><AiOutlineUserAdd /></a>
   </div>
 </div>

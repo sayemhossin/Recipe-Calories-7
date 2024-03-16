@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'; 
 
 
 const Cart = ({cart,handleDelete,handleAdd,cook}) => {
@@ -15,7 +16,7 @@ const Cart = ({cart,handleDelete,handleAdd,cook}) => {
             <div>
            {
             cart.map((item,index) =>( 
-                <div key={index} className="flex text-[14px] md:text-[18px]  bg-gray-200  p-5  justify-between text-[#878787]">
+                <div key={index} className="flex text-[13px] md:text-[18px]  bg-gray-200  p-5  justify-between text-[#878787]">
                     <p className="flex items-center font-semibold text-black">{index+1}</p>
                      <p className="w-8">{item.recipe_name}</p>
                 <p className="w-8">{item.preparing_time} min</p>
@@ -62,5 +63,14 @@ const Cart = ({cart,handleDelete,handleAdd,cook}) => {
         </div>
     );
 };
+
+Cart.propTypes ={
+    cart: PropTypes.object,
+    handleDelete: PropTypes.func,
+    handleAdd: PropTypes.func,
+    cook: PropTypes.array,
+}
+
+
 
 export default Cart;

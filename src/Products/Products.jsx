@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Product from "./Product/Product";
+import PropTypes from 'prop-types'; 
 
 const Products = ({handleClick}) => {
 
@@ -18,5 +19,9 @@ useEffect(()=>{
         </div>
     );
 };
+
+Products.propTypes={
+   handleClick: PropTypes.func
+}
 
 export default Products;

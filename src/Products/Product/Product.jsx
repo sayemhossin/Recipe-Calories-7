@@ -1,5 +1,7 @@
 import { CiClock2 } from "react-icons/ci";
 import { GoFlame } from "react-icons/go";
+import PropTypes from 'prop-types'; 
+
 
 const Product = ({product,handleClick}) => {
     const {recipe_name,short_description,ingredients,preparing_time,calories,recipe_image} = product
@@ -14,8 +16,8 @@ const Product = ({product,handleClick}) => {
     <div className="ml-4">
        <h1 className="text-xl font-semibold">InteGrants: {ingredients.length}</h1>
        {
-        ingredients.map((i)=>(
-            <p><li>{i}</li></p>
+        ingredients.map((i,idx)=>(
+            <p key={idx}><li>{i}</li></p>
         ))
        }
     </div>
@@ -38,5 +40,11 @@ const Product = ({product,handleClick}) => {
         </div>
     );
 };
+Product.propTypes ={
+  product: PropTypes.array,
+  handleClick: PropTypes.func
+}
+
+
 
 export default Product;

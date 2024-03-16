@@ -37,7 +37,7 @@ const handleAdd = (pd) =>{
       <Banner></Banner>
       <div className='text-center w-3/4 mx-auto mb-10 space-y-5'>
         <h1 className="text-4xl  font-extrabold "> Our Recipes</h1>
-        <p>Prioritize quality over quantity. Check labels for ingredients and nutritional value. Compare prices across stores and consider buying in bulk for savings. Look for seasonal discounts and loyalty programs. Don't forget to make a list and stick to it to avoid impulse purchases. Happy and savvy shopping!"</p>
+        <p>Prioritize quality over quantity. Check labels for ingredients and nutritional value. Compare prices across stores and consider buying in bulk for savings. Look for seasonal discounts and loyalty programs. Do not forget to make a list and stick to it to avoid impulse purchases. Happy and savvy shopping!</p>
       </div>
 <div className='flex flex-col md:flex-row gap-5'>
   <div className='md:w-4/6 w-full'>
